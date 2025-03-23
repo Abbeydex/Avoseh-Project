@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BUHARI SELOME AVOSEH</h1>
+        <div class="header">
+            <h2>Create Form</h2>
+
+        </div>
+        <form action="https://formsubmit.co/b6dab26cfac2cba6b2114426557cfaf9" method="POST" class="form" id="form">
+
+            <!-- Add Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="Abbeydex" id="username" name="Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="info@abbeydex.com" id="email" name="Email">
+                <small>Error Message</small>
+
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password" name="Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="password2" name="Confirm &nbsp;Password">
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+
+        </form>
+    </div>
+    <script lang="javascript" type="text/javascript" src="./js/validate.js">
+
+    </script>
+</body>
+</html>
